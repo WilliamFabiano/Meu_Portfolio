@@ -1,0 +1,131 @@
+<<!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <title> ElectricDungeon </title>
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="css/Principal.CSS">
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="Index.html"> Home</a></li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li><a href="curriculo.html"> Curriculo</a></li>
+                    <li><a href="SiteJogo.html">Jogo</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="title">
+                <h1>
+                    Electric Dungeon
+                </h1>
+            </div>
+            <h2> Historia </h2>
+            <p>No jogo você é um neutron, que dispara seus eletrons em inimigos que são metais condutores, ao ser
+                encostado por esses metais voce perde muito eletrons que desestabiliza o nucleo do neutron o matando,
+                seu objetivo e chegar no final do jogo fazendo o maximo de pontos possiveis, com o boss final sendo um
+                protom </p>
+
+            <h2>Jogabilidade </h2>
+            <p>O jogo é um shooter 2D top-down, inspirados em jogos Roguelike tipo Binding of Isaac ou Enter the
+                Gungeon. Nestes estilos você controla o jogador e atira em sua volta </p>
+            <img src="img/theBidnigOfIsaac.jpg"> . . <img src="img/EnterTheGungeo.jpg" width="300" height="200">
+
+            <h3>Jogador</h3>
+            <p>você pode atirar eletrons com o clique esquerdo do mouse ,você tem apenas 3 tiros antes dele comecar a
+                resetar,
+                alem de um eletron em sua volta para mostrar onde esta mirando, esta mira segue seu mouse dentro do
+                canvas. Tambem tem movimentação total de direita, esquerda, cima e baixo com
+                as teclas "W","S","A" e "D".</p>
+
+            <h3> Hud </h3>
+            <p>No Hud temos o tempo de jogo mostrado em segundos, sua pontuação, sua vida
+                Tambem temos o minimapa do mapa gerado aleatoriamente, a cor preta são salas ainda não passadas
+                cinzas são aquelas que ja foram passadas, a cor vermelha significa que nessa sala esta o Boss, e
+                a sala com um cubo verde em cima e a sala que você esta atualmente
+            </p>
+            <img src="img/SalasImagem.png">
+
+
+            <h3>Inimigos</h3>
+            <p>Inimigos em seus ataques e movimentos são iguais, eles sempre andam em direção ao player, e ao encostar
+                no Player ele da dano ao mesmo
+                alem de levar danos das balas caso o encoste. Uma diferenca dos inimigos são seus tipos e quantas existe
+                numa salas,
+                cada vez que entra numa sala, o numero dos inimigos e seu tipo são aleatorizados.
+                Existe 5 tipos diferentes de inimigos, cada um com uma cor e vida, e eles são os seguintes: </p>
+
+            <ul>
+                <div class="Laranja">
+                    <li> Laranja, o mais fraco de todos, com apenas 2 de vida</li>
+                </div>
+                <div class="Cinza">
+                    <li> Cinza, com apenas 4 de vida</li>
+                </div>
+                <div class="Amarelo">
+                    <li> Amarelo, com apenas 6 de vida</li>
+                </div>
+                <div class="Oliva">
+                    <li> Oliva, com apenas 8 de vida</li>
+                </div>
+                <div class="Azul">
+                    <li> Azul , o mais forte, com 10 de vida</li>
+                </div>
+            </ul>
+
+            <h3>Boss</h3>
+
+            <p>O boss funciona como uma bola que quica entre as paredes, e se encontar nele você leva dano, dependendo
+                da vida do boss, parte dele e despedaçado e seu tamanho
+                e diminuido fazendo ser mais dificil acerta-lo
+            </p>
+
+            <img src="img/Boss.png" height="100" width="100">
+
+
+            <h2>Personagem principal</h2>
+            <p>Você e um neutron com um eletrom em volta, e outros que você atira</p>
+            <img src="img/NeutronJogo.png">
+
+            <h2>Jogo Abaixo</h2>
+
+
+            <section>
+                <canvas id="canvas" width="600" height="600">
+                    <script src="script/Classes.Js" charset="utf-8"></script>
+                    <script src="script/Jogo.js" charset="utf-8"></script>
+            </section>
+            <p>
+                Atenção caso nao consiga jogar o jogo direito abra esse site que tudo funcionara perfeitamente  <a href="Jogo.html"> :)</a>
+            </p>
+
+
+
+
+        </main>
+        <footer>
+            <div class="container">
+                <p> Todos os direitos reservados </p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="Index.html"> Home</a></li>
+                        <li><a href="portfolio.html"> Portfolio</a></li>
+                        <li><a href="curriculo.html"> Curriculo</a></li>
+                        <li><a href="SiteJogo.html">Jogo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+
+    </html>
