@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Quadrada;
+    src: url(../font/FonteBala.ttf);
+}
+
 body {
-    background-image: url("../img/Chao.png");
+    background-image: url("../img/BGSpaco.png");
+    background-size: auto;
     background-color: black;
 }
 
@@ -41,6 +47,9 @@ ul {
 
 header {
     min-height: 70px;
+    width: 100vw;
+    top: 0;
+    margin-top: -20px;
     background-color: rgb(0, 0, 0, 0.5);
 }
 
@@ -53,17 +62,19 @@ canvas {
 }
 
 footer {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    justify-content: center;
+    width: 100vw;
     color: #6c757d;
     font-size: .8em;
+    margin-left: -8px;
+    margin-bottom: -10px;
 }
 
 footer p {
     line-height: 35px;
-    color: gray;
-}
-
-footer .container {
-    display: flex;
+    color: rgb(194, 194, 194);
 }
 
 footer .menu a {
@@ -114,9 +125,82 @@ footer .menu a {
     max-width: 960px;
     margin: auto;
     width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgb(0, 0, 0, 0.5);
+}
+
+.Portfolio {
+    background-color: rgba(64, 64, 64, 0.5);
+    margin: auto;
+    margin-top: 10px;
+    max-width: 960px;
+    max-height: 100%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.DentroPortfolio {
+    background-color: rgba(28, 41, 48, 0.5);
+    margin: auto;
+    max-width: 900px;
+    padding-right: 15px;
+    padding-left: 10px;
+    width: 100%;
+
+}
+
+.ImagensPortfolio {
+    display: inline;
+    position: relative;
+    padding-right: 10px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+.ImagensPortfolio_img {
+    background-color:  rgb(0, 0, 0, 0.5);
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ImagensPortfolio_Overlay {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: auto;
+    background-color: rgba(27, 27, 27, 0.5);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Quadrada;
+    opacity: 0;
+}
+
+.ImagensPortfolio:hover .ImagensPortfolio_Overlay {
+    opacity: 1;
+}
+.ImagensPortfolio:hover .ImagensPortfolio_img{
+    background-color:  rgb(0, 0, 0, 1);
+}
+
+
+.ImagensPortfolio img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .title h1 {
@@ -142,20 +226,16 @@ footer .menu a {
 }
 
 .menu a:link {
-    color: #6C757D;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .menu a:visited {
-    color: #6C757D;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .menu a:active {
-    color: #6C757D;
+    color: #6d6c6c;
     text-decoration: none;
 }
-
-
-
-
