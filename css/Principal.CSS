@@ -237,15 +237,12 @@ footer .menu a {
 }
 .ImagensPortfolio_Overlay a:link{
     color: #ffffff;
-    text-decoration: none;
 }
 .ImagensPortfolio_Overlay a:visited{
     color: #ffffff;
-    text-decoration: none;
 }
 .ImagensPortfolio_Overlay a:active{
     color: #6d6c6c;
-    text-decoration: none;
 }
 
 .ImagensPortfolio:hover .ImagensPortfolio_Overlay {
@@ -286,15 +283,14 @@ footer .menu a {
 
 .menu a:link {
     color: #ffffff;
-    text-decoration: none;
+    
 }
 
 .menu a:visited {
     color: #ffffff;
-    text-decoration: none;
+    
 }
 
 .menu a:active {
     color: #6d6c6c;
-    text-decoration: none;
 }
