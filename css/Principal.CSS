@@ -93,13 +93,39 @@ footer p {
 footer .menu a {
     color: #6c757d;
 }
+
 .ImgDentroCurriculo {
     position: relative;
     right: 10%;
     height: auto;
-    width: 300px;
+    width: 35%;
     float: right;
     border-radius: 35%;
+}
+
+.ImagemADireita {
+    position: relative;
+    right: 12%;
+    height: auto;
+    width: 35%;
+    float: right;
+}
+
+.ImagemAEsquerda {
+    position: relative;
+    left: 12%;
+    height: auto;
+    width: 35%;
+    float: left;
+}
+
+.TextoAEsquerda {
+    text-align: left;
+    padding-right: 60%;
+}
+.TextoADireita {
+    text-align: right;
+    padding-left: 60%;
 }
 
 .Laranja li::before {
@@ -145,7 +171,6 @@ footer .menu a {
 .container {
     max-width: 960px;
     margin: auto;
-    width: 100%;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 15px;
