@@ -50,8 +50,21 @@ p {
     font-size: 16px;
     font-style: normal 100;
     text-align: justify;
-    font-family: Roboto;
+    font-family: Roboto;    
 
+
+}
+p a:link{
+    color: #c8c8c8;
+    text-decoration: underline dotted;
+    
+}
+p a:visited{
+    color: #c8c8c8;
+    text-decoration: underline dotted;
+}
+p a:active{
+    color: #6d6c6c;
 }
 
 ul {
@@ -188,7 +201,6 @@ footer .menu a {
     margin-top: 10px;
     max-width: 960px;
     max-height: 100%;
-
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 1px;
@@ -241,6 +253,7 @@ footer .menu a {
 }
 .ImagensPortfolio_Overlay a:link{
     color: #ffffff;
+    
 }
 .ImagensPortfolio_Overlay a:visited{
     color: #ffffff;
