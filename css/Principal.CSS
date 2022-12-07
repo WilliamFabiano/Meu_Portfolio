@@ -107,6 +107,44 @@ footer .menu a {
     color: #6c757d;
 }
 
+.Index {
+    display: flex;
+    align-items: stretch;
+   
+}
+.IndexCrianca {
+    position: relative;
+    min-height: 100%;
+    min-width: 50%;
+    background-color: rgb(22, 13, 17, 0.7);
+}
+.IndexCrianca p{
+    text-align: left;
+}
+.IndexCrianca a:link{
+    color: #bbbbbb;
+    text-decoration: dotted underline;
+}
+.IndexCrianca a:visited{
+    color: #b8b8b8;
+    text-decoration: dotted underline;
+}
+.IndexCrianca a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ImgDentroIndex {
+    position: relative;
+    left: 5%;
+    top: 5%;
+    height: auto;
+    width: 70%;
+    float: left;
+    border-radius: 35%;
+
+}
+
 .ImgDentroCurriculo {
     position: relative;
     right: 10%;
@@ -114,6 +152,18 @@ footer .menu a {
     width: 35%;
     float: right;
     border-radius: 35%;
+}
+
+.TextoLaDoOut {
+    display: flex;
+    justify-content: center;
+}
+.TextoLaDoOut p{
+    position: relative;
+    right: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+  padding-top: 55px;
 }
 
 .ImagemADireita {
@@ -144,6 +194,8 @@ footer .menu a {
     padding-left: 60%;
     padding-bottom: 60px;
 }
+
+
 
 .Laranja li::before {
     content: "•";
@@ -243,7 +295,7 @@ footer .menu a {
     left: 20%;
     width: 50%;
     height: auto;
-    background-color: rgba(27, 27, 27, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: whitesmoke;
     display: flex;
     align-items: center;
@@ -300,14 +352,16 @@ footer .menu a {
 
 .menu a:link {
     color: #ffffff;
+    text-decoration: none;
     
 }
-
 .menu a:visited {
     color: #ffffff;
+    text-decoration: none;
     
 }
 
 .menu a:active {
     color: #6d6c6c;
+    text-decoration: none;
 }
